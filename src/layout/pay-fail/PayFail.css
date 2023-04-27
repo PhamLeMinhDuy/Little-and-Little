@@ -1,0 +1,32 @@
+.pay__fail {
+    height: 262px;
+    width: 472px;
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pay__fail-header {
+    height: 84px;
+    background-color: #FF8B15;
+    position: relative;
+    
+}
+
+.pay__fail-text {
+    box-sizing: border-box;
+    padding: 0px 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.pay__fail-header-icon {
+    position: absolute;
+    top: -66px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 132px;
+    width: 132px;
+}

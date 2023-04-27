@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { Header } from './layout/header/header';
+import { ContactInfo } from './layout/contact-info/ContactInfo';
+import { Contact } from './layout/contact/Contact';
+import { SendContact } from './layout/send-contact/SendContact';
+import { PayFail } from './layout/pay-fail/PayFail';
+import { PayTicketsItem } from './layout/pay-tickets-success/pay-tickets-item/PayTicketsItem';
+import { PayTickets } from './layout/pay-tickets/PayTickets';
+import './assets/css/base.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PayTickets/>
     </div>
   );
 }

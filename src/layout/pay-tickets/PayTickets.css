@@ -1,0 +1,226 @@
+.pay__tickets {
+    display: flex;
+    position: relative;
+}
+
+.pay__tikets-block1,
+.pay__tikets-block2{
+    background-color: #FDE8B3;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px #ffca7b;
+
+}
+
+.pay__tickets-block1-container,
+.pay__tickets-block2-container  {
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    align-items: center;
+    position: relative;
+}
+
+.pay__tikets-block1 {
+    width: 950px;
+    height: 640px;
+    margin-right: 24px;
+}
+
+.pay__tikets-block2 {
+    width: 540px;
+    height: 640px;
+}
+.pay__tickets-block1-container {
+    width: 926px;
+    height: 616px;
+    padding: 56px 118px;
+    box-sizing: border-box;
+}
+
+.pay__tickets-block2-container {
+    width: 516px;
+    height: 616px;
+    padding: 56px 52px;
+    box-sizing: border-box;
+
+}
+
+.pay__tickets-cicle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 576px;
+    background-color: #FDE8B3;
+    top: 32px;
+    left: 950px;
+}
+
+.pay__tickets-cicle span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FFC226;
+    margin: 14px 0px;
+}
+
+.pay__tickets-cicle div:nth-child(2),
+.pay__tickets-cicle div:nth-child(3){
+    width: 24px;
+    height: 24px;
+    background-color: #FFC226;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+}
+
+.pay__tickets-cicle div:nth-child(2){
+    top: -12px;
+}
+
+.pay__tickets-cicle div:nth-child(3){
+    bottom: -12px;
+}
+
+.pay__tickets-block1-container-title,
+.pay__tickets-block2-container-title {
+    position: absolute;
+    top: -32px;
+
+
+}
+
+.pay__tickets-block1-container-title img,
+.pay__tickets-block2-container-title img {
+    width: 380px;
+    height: 72px;
+}
+
+.pay__tickets-block1-container-title p,
+.pay__tickets-block2-container-title p {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'iCiel Koni', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: var(--white-color);
+    width: 100%;
+}
+
+.pay__tickets-block1-container-title{
+    left: 118px;
+
+}
+
+.pay__tickets-block2-container-title {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pay__tickets-container-row {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.pay__tickets-container-row  p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+}
+
+.pay__tickets-container-column {
+
+}
+
+.pay__tickets-container-column:nth-child(1),
+.pay__tickets-container-column:nth-child(3) {
+    width: 32%;
+}
+
+.pay__tickets-container-column:nth-child(2) {
+    width: 18%;
+}
+
+.pay__tickets-container-row-input {
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    padding: 0 24px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.pay__tickets-container-row-css {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay__tickets-container-row-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay__tickets-container-row-btn input {
+    width: 80%;
+}
+
+.pay__tickets-container-row-calender {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 8px #FFBE5C;
+    background-color: #FFDE32;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.pay__tickets-container-row-calender-icon {
+    color: #FFF;
+}   
+
+#CVV-input {
+    width: 30%;
+}
+
+#contact-input {
+    width: 60%;
+}
+
+#phone-input {
+    width: 32%;
+}
+
+#email-input {
+    width: 60%;
+}
+
+#date-input {
+  
+}
+
+.pay__tickets-container-btn {
+    position: absolute;
+    height: 60px;
+    width: 368px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 32px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 16px;
+}

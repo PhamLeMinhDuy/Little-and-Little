@@ -1,0 +1,81 @@
+.contact {
+    background-color: #FDE8B3;
+    border-radius: 38px;
+    height: 630px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px #ffca7b;
+
+}
+
+.contact-container {
+    width: 926px;
+    height: 606px;
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    padding: 56px;
+    box-sizing: border-box;
+}
+
+.contact-container-row-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.contact-container-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+}
+
+.contact-container-row:nth-child(5) {
+    justify-content: center;
+}
+
+.contact-container-row input {
+    height: 56px;
+    width: 100%;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding:  16px;
+    box-sizing: border-box;
+}
+
+.contact-container-row-column1 {
+    
+    width: 292px;
+}
+
+.contact-container-row-column2 {
+    width: 488px;
+}
+
+.contact-container-row textarea {
+    width: 100%;
+    height: 152px;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding:  16px;
+}
+
+.contact-container-row-btn {
+    height: 60px;
+    width: 368px;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    border-radius: 8px;
+
+}

@@ -1,0 +1,73 @@
+.book__tickets-block1-container-content {
+    margin-bottom: 48px;
+    height: 150px;
+}
+
+.book__tickets-block1-container-content-paragraph {
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.book__tickets-block1-container-content-paragraph p:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.book__tickets-block1-container-note p{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.book__tickets-block1-container-note-star {
+    height: 40px;
+    width: 40px;
+    color: #FDE329;
+    transform: translateX(-8px);
+}
+
+.book__tickets-container-row-calender-icon{
+    rotate: 180deg;
+    margin-top: 8px;
+}
+
+.book__tickets-block2-container-row {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.book__tickets-block2-container-row input{
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    padding: 0 24px;
+    font-size: 18px;
+    margin-top: 8px;
+}  
+
+.book__tickets-block2-container-row:nth-child(2) input{
+    width: 86%;
+}
+
+.book__tickets-block2-container-row:nth-child(3) span{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book__tickets-block2-container-row:nth-child(3) span input {
+    width: 40%;
+}
+
+.book__tickets-block2-container-row:nth-child(3) span input:nth-child(2) {
+    width: 55%;
+}

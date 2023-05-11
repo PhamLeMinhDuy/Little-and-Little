@@ -4,7 +4,7 @@ import '../pay-tickets/PayTickets.css'
 import { Calendar, Star, Triangle } from 'react-feather'
 export const BookTickets = () => {
   return (
-    <div className='pay__tickets'>
+    <div className='pay__tickets '>
         <div className="pay__tikets-block1" style={{height: "584px"}}>
             <div className="pay__tickets-block1-container"  style={{padding: "36px 56px", height: "560px"}}>
                 <div className="book__tickets-block1-container-content">

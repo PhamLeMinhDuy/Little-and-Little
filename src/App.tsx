@@ -8,12 +8,15 @@ import { PayTicketsItem } from './layout/pay-tickets-success/pay-tickets-item/Pa
 import { PayTickets } from './layout/pay-tickets/PayTickets';
 import { BookTickets } from './layout/book/book';
 import { EventItem } from './layout/event-item/EventItem';
+import { View_contact } from './view/View_contact/View_contact';
+import { View_event } from './view/View_event/View_event';
+import { View_home } from './view/View_home/View_home';
 import './assets/css/base.css';
 function App() {
   return (
     <div className="App">
-      <BookTickets/>
-      <EventItem event_name='Sự kiện 1' location='Đầm sen Park' start_date='30/05/2021' end_date='01/06/2021' price='25.000'/>
+      <View_event/>
+
     </div>
   );
 }

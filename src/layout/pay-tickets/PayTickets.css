@@ -1,6 +1,6 @@
 .pay__tickets {
     display: flex;
-    position: relative;
+    position: absolute;
 }
 
 .pay__tikets-block1,

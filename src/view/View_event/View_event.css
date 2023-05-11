@@ -1,0 +1,31 @@
+.view_event {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view_event-container {
+    background-image: url(../../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.view_event-container-title {
+    position: absolute;
+    top: 65px;
+    color: var(--white-color);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:'iCiel Koni' ;
+    font-weight: 900;
+    font-size: 96px;
+    margin: 0;
+}

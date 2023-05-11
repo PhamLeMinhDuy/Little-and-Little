@@ -1,0 +1,99 @@
+.view_home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view_home-container {
+    background-image: url(../../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.view_home-container-title {
+    position: absolute;
+    width: 450px;
+    top: 100px;
+    left: 360px;
+    color: var(--white-color);
+    font-family:'iCiel Koni' ;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}
+
+.view_home-container-logo {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+.pay__tickets{
+    position: absolute;
+    bottom: 86px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.view_home-container-img {
+    position: absolute;
+    left: -40px;
+    bottom: -8px;
+    z-index: 3;
+
+}
+
+.view_home-container-group {
+    position: absolute;
+    z-index: 1;
+    right: 18px;
+}
+
+.view_home-container-balloon--1 {
+    position: absolute;
+    bottom: -58px;
+    left: 590px;
+}
+
+.view_home-container-balloon--2 {
+    position: absolute;
+    bottom: 762px;
+    right: 712px;
+}
+
+.view_home-container-balloon--3 {
+    position: absolute;
+    bottom: 643px;
+    left: 738px;
+
+}
+
+.view_home-container-balloon--4 {
+    position: absolute;
+    bottom: -41px;
+    right: 22px;
+}
+
+.view_home-container-balloon--5 {
+    position: absolute;
+    right: -40px;
+    bottom: 360px;
+
+}
+
+.view_home-container-balloon--6 {
+    position: absolute;
+    left: -22px;
+    bottom: 490px;
+
+}

@@ -1,0 +1,135 @@
+
+.view_pay-success {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+}
+
+.view_pay-success-container {
+    background-image: url(../../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1840px;
+    height: 962px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.view_pay-success-container-title {
+    position: absolute;
+    top: 65px;
+    color: var(--white-color);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:'iCiel Koni' ;
+    font-weight: 900;
+    font-size: 96px;
+    margin: 0;
+}
+
+.view_pay-success-container-img {
+    position: absolute;
+    left: -40px ;
+    bottom: 97px;
+    z-index: 2;
+}
+
+.view_pay-success-container-list {
+    position: absolute;
+    background-color: #FDE8B3;
+    border-radius: 38px;
+    height: 624px;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px #ffca7b;
+    box-sizing: border-box;
+    right: 100px;
+    bottom: 104px;
+
+}
+
+
+.view_pay-success-container-list-item {
+    width: 1496px;
+    height: 600px;
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    display: flex;
+    padding-top: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.view_pay-success-container-button {
+    width: 54px;
+    height: 46px;
+    background-color: #FFDE32;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px #FFBE5C;
+    position: absolute;
+    top: 50%;
+    transform: translateY(30%);
+}
+
+.view_pay-success-container-button--1 {
+    left: 30px;
+}
+
+.view_pay-success-container-button--2 {
+    right: 30px;
+}
+
+.view_pay-success-container-button-icon {
+    width: 16px;
+    height: 16px;
+    color: white;
+}
+
+.view_pay-success-container-button-icon--1 {
+    rotate: -90deg;
+}
+
+.view_pay-success-container-button-icon--2 {
+    rotate: 90deg;
+}
+
+.view_pay-success-container span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.view_pay-success-container-btn {
+    width: 160px;
+    height: 36px;
+    border-radius: 8px;
+    margin: 0 12px;
+}
+
+.view_pay-success-container-number-tickets {
+    position: absolute;
+    left: 122px;
+    bottom: 32px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.view_pay-success-container-page-number {
+    position: absolute;
+    right: 122px;
+    bottom: 32px;
+    margin: 0;
+    font-size: 20px;
+}

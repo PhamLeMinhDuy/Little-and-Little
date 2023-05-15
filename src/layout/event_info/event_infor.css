@@ -1,0 +1,110 @@
+.event_info {
+    background-color: #FDE8B3;
+    border-radius: 38px;
+    height: 624px;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px #ffca7b;
+    box-sizing: border-box;
+
+}
+
+.event_info-container {
+    width: 1496px;
+    height: 600px;
+    background-color: #FFF6D4;
+    border: 3px dashed #FFB489;
+    border-radius: 32px;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 72px;
+    justify-content: space-around;
+
+
+}
+
+.event_info-container-column:nth-child(1) {
+    width: 412px;
+}
+
+.event_info-container-column:nth-child(1) img{
+    width: 412px;
+    height: 337px;
+}
+
+.event_info-container-column:nth-child(2) {
+    width: 288px;
+} 
+
+.event_info-container-column:nth-child(2) span {
+    color: #FA7D09;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.event_info-container-column:nth-child(3) img{
+    margin-bottom: 33px;
+    width: 288px;
+    height: 208px;
+    border-radius: 16px;
+} 
+
+.event_info-container-column:nth-child(4) img{
+    margin-top: 33px;
+    width: 288px;
+    height: 208px;
+    border-radius:16px ;
+}
+
+.event_info-container-column:nth-child(2) p,
+.event_info-container-column:nth-child(3) p,
+.event_info-container-column:nth-child(4) p {
+    margin: 0;
+    width: 288px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.event_info-container-column:first-child img{
+    margin-bottom: 36px;
+    width: 411px;
+    height: 337px;
+    border-radius: 10px;
+}
+
+.event_info-container-column:first-child span{
+    margin-bottom: 12px;
+    height: 16px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.event_info-container-column-calendar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+    color: #FFB809;
+}
+
+.event_info-container-column-location {
+    font-size: 18px;
+    line-height: 26px;
+    color: #6C7272;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.event_info-container-column-price {
+    color: #FA7D09;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 4px;
+}

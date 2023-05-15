@@ -32,6 +32,7 @@
     width: 542px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .header__btn-item {
@@ -41,6 +42,7 @@
     height: 42px;
     padding: 0 16px;
     border: none;
+    cursor: pointer;
 }
 
 .active {

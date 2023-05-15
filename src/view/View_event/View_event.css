@@ -28,4 +28,77 @@
     font-weight: 900;
     font-size: 96px;
     margin: 0;
+    margin-top: 40px;
+}
+.view_event-container--left-flag,
+.view_event-container--right-flag,
+.view_event-container-decor1,
+.view_event-container-decor2{
+    position: absolute;
+}
+
+.view_event-container--left-flag {
+    left: -40px;
+    top: 0;
+    z-index: 2;
+}
+
+.view_event-container--right-flag {
+    right: -40px;
+    z-index: 2;
+}
+
+.view_event-container-decor1 {
+    margin-left: 34px;
+}
+
+.view_event-container-decor2 {
+    width: 1200px;
+    right: 40px;
+    bottom: 100px;
+}
+
+.view_event-component {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    width: 1508px;
+    height: 500px;
+    display: flex;
+}
+
+.view_event-container-button {
+    width: 54px;
+    height: 46px;
+    background-color: #FFDE32;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px #FFBE5C;
+    position: absolute;
+    top: 50%;
+    transform: translateY(30%);
+}
+
+.view_event-container-button--1 {
+    left: 80px;
+}
+
+.view_event-container-button--2 {
+    right: 80px;
+}
+
+.view_event-container-button-icon {
+    width: 16px;
+    height: 16px;
+    color: white;
+}
+
+.view_event-container-button-icon--1 {
+    rotate: -90deg;
+}
+
+.view_event-container-button-icon--2 {
+    rotate: 90deg;
 }

@@ -1,8 +1,10 @@
 .event__ỉtem {
     height: 500px;
     width: 356px;
+    margin-right: 28px;
     box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
     border-radius: 20px;
+    background: white;
 }
 
 .event__ỉtem-content-name {

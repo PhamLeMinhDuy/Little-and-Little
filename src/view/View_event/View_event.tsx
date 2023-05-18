@@ -29,7 +29,7 @@ export const View_event = () => {
       name: string;
       location: string;
       startDay: string;
-      endDay: string;
+      enDay: string;
       price: string;
   }
   const handleNext = () => {
@@ -45,7 +45,7 @@ export const View_event = () => {
   };
 
   const renderEvent = (data:EventProps) => {
-      return <EventItem event_name={data.name} location={data.location} start_date={data.startDay} end_date={data.endDay} price={data.price}/>
+      return <EventItem event_name={data.name} location={data.location} start_date={data.startDay} end_date={data.enDay} price={data.price}/>
   }
   return (
     <div className='view_event' style={{width: "1920px", height: "1080px"}}>

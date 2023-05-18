@@ -3,7 +3,10 @@
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    display: none;
 }
 
 .view_pay-success-container {
@@ -29,6 +32,9 @@
     font-weight: 900;
     font-size: 96px;
     margin: 0;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .view_pay-success-container-img {
@@ -81,10 +87,12 @@
 
 .view_pay-success-container-button--1 {
     left: 30px;
+    cursor: pointer;
 }
 
 .view_pay-success-container-button--2 {
     right: 30px;
+    cursor: pointer;
 }
 
 .view_pay-success-container-button-icon {

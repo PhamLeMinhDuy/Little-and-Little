@@ -3,7 +3,10 @@
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    display: none;
 }
 
 .view_pay-container {
@@ -29,11 +32,12 @@
     font-weight: 900;
     font-size: 96px;
     margin: 0;
+    margin-top: 20px;
 }
 
 .view_pay-container-img {
     position: absolute;
     left: -40px ;
     bottom: 97px;
-    z-index: 2;
+    z-index: 3;
 }

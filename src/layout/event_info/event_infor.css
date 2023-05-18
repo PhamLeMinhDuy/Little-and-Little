@@ -8,6 +8,10 @@
     justify-content: center;
     box-shadow: 0px 16px #ffca7b;
     box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    position: absolute;
 
 }
 

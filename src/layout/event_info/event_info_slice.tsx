@@ -5,13 +5,15 @@ interface EventState {
   end_day: string;
   location: string;
   price: string;
+  name: string;
 }
 
 const initialState: EventState = {
-    start_day: '30/05/2021',
-    end_day: '01/06/2021',
-    location: 'Đầm sen Park',
-    price: '25.000',
+    start_day: '',
+    end_day: '',
+    location: '',
+    price: '',
+    name:''
 };
 
 export const EventSlice = createSlice({
@@ -30,12 +32,16 @@ export const EventSlice = createSlice({
     setEventPrice: (state, action) => {
       state.price = action.payload;
     },
+    setEventName: (state, action) => {
+      state.name = action.payload;
+    },
   },
 });
 
 export const { setEventStartDay,
     setEventEndDay,
     setEventLocation,
-    setEventPrice } = EventSlice.actions;
+    setEventPrice,
+    setEventName } = EventSlice.actions;
 
 export default EventSlice.reducer;

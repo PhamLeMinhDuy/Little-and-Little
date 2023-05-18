@@ -10,6 +10,8 @@ import balloon_6 from '../../assets/img/Hot_air_ balloon6.png'
 import avatar_group from '../../assets/img/group.png'
 import avatar_Lisa from '../../assets/img/Lisa.png'
 import { BookTickets } from '../../layout/book/book'
+import { View_pay } from '../View_pay/View_pay'
+import { View_pay_success } from '../View_pay_success/View_pay_success'
 export const View_home = () => {
   return (
     <div className='view_home' style={{width: "1920px", height: "1080px"}}>
@@ -26,6 +28,8 @@ export const View_home = () => {
             <BookTickets/>
             <img src={avatar_Lisa} className='view_home-container-img'/>
         </div>
+        <View_pay/>
+        <View_pay_success/>
     </div>
   )
 }

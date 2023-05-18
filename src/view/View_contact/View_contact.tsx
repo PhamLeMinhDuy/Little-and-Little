@@ -4,6 +4,7 @@ import background from '../../assets/img/bg.png'
 import avatar_Alex from '../../assets/img/Alex.png'
 import { Contact } from '../../layout/contact/Contact'
 import { ContactInfo } from '../../layout/contact-info/ContactInfo'
+import { SendContact } from '../../layout/send-contact/SendContact'
 export const View_contact = () => {
   return (
     <div className='view_contact' style={{width: "1920px", height: "1080px"}}>
@@ -17,6 +18,7 @@ export const View_contact = () => {
             <ContactInfo title='Điện thoại' content='+84 145 689 798'/>
             </span>
         </div>
+        <SendContact/>
     </div>
   )
 }

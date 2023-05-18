@@ -71,3 +71,10 @@
 .book__tickets-block2-container-row:nth-child(3) span input:nth-child(2) {
     width: 55%;
 }
+
+.book_ticket-calendar {
+    position: absolute;
+    top: 224px;
+    right: 50px;
+    display: none;
+}

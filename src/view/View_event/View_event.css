@@ -82,10 +82,12 @@
 }
 
 .view_event-container-button--1 {
+    cursor: pointer;
     left: 80px;
 }
 
 .view_event-container-button--2 {
+    cursor: pointer;
     right: 80px;
 }
 
@@ -101,4 +103,8 @@
 
 .view_event-container-button-icon--2 {
     rotate: 90deg;
+}
+
+.view_event-container-info-page {
+    display: none;
 }

@@ -189,6 +189,7 @@
     border-radius: 12px;
     margin-left: 10px;
     cursor: pointer;
+    margin-top: 6px;
 }
 
 
@@ -212,10 +213,6 @@
     width: 60%;
 }
 
-#date-input {
-  
-}
-
 .pay__tickets-container-btn {
     position: absolute;
     height: 60px;
@@ -227,3 +224,10 @@
     font-size: 30px;
     border-radius: 16px;
 }
+
+.pay_ticket-calendar {
+    position: absolute;
+    bottom: 234px;
+    right: 120px;
+    display: none;
+} 

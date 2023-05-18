@@ -1,7 +1,10 @@
 import React from 'react'
 import './Contact.css'
+import { SendContact } from '../send-contact/SendContact'
 export const Contact = () => {
-    
+    const handleShowMessage = () => {
+        document.querySelector('.send__contact-message')?.setAttribute("style","display:block")
+    }
   return (
     <div className='contact'>
         <div className="contact-container">
@@ -30,7 +33,7 @@ export const Contact = () => {
                 <textarea cols={30} rows={10} placeholder='Lời nhắn'></textarea>
             </div>
             <div className="contact-container-row">
-                <button className="contact-container-row-btn primary-btn">Gửi liên hệ</button>
+                <button className="contact-container-row-btn primary-btn" onClick={() => handleShowMessage()}>Gửi liên hệ</button>
             </div>
         </div>
     </div>

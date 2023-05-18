@@ -10,6 +10,8 @@ export const Header = () => {
     dispatch(selectView(page))
     document.querySelector('.active')?.classList.remove('active')
     document.querySelector('.' + page)?.classList.add('active')
+    document.querySelector('.view_pay')?.setAttribute("style", "display:none")
+    document.querySelector('.view_pay-success')?.setAttribute("style", "display:none")
   }
   return (
     <div className='header'>

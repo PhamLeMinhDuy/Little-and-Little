@@ -1,14 +1,27 @@
+.send__contact-message {
+    position: fixed;    
+    z-index: 15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5); 
+    display: none;
+}
 .send__contact {
     height: 169px;
     width: 472px;
     border-radius: 24px;
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 42px;
     background-color: #FFF;
     box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .send__contact-icon {

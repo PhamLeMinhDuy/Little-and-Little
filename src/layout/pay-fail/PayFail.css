@@ -2,14 +2,21 @@
     height: 262px;
     width: 472px;
     border-radius: 32px;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
+    background-color: white;
+    
 }
 
 .pay__fail-header {
     height: 84px;
     background-color: #FF8B15;
-    position: relative;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
     
 }
 

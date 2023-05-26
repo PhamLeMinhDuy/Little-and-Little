@@ -12,6 +12,13 @@ import { CollectionReference, DocumentData, collection, QuerySnapshot, getDocs }
 import { useSelector } from 'react-redux'
 import { RootState } from '../../app/store'
 export const View_event = () => {
+  interface EventProps {
+    name: string;
+    location: string;
+    startDay: string;
+    enDay: string;
+    price: string;
+  }
   const name = useSelector((state: RootState) => state.event_info.name);
   const eventRef: CollectionReference<DocumentData> = collection(db, "event");
   const [eventList, seteventList] = useState<any[]>([]);
@@ -25,13 +32,7 @@ export const View_event = () => {
         
         getListTicket();
     }, []);
-    interface EventProps {
-      name: string;
-      location: string;
-      startDay: string;
-      enDay: string;
-      price: string;
-  }
+    
   const handleNext = () => {
     if (startIndex + 4 < eventList.length) {
       setStartIndex(startIndex + 4);

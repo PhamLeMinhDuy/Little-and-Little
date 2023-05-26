@@ -5,6 +5,13 @@ import { useDispatch } from "react-redux";
 import { setSelectedDay } from "./calendar_slice";
 
 export const Calendar_Component = () => {
+    const [date, setDate] = useState(new Date());
+    const [currYear, setCurrYear] = useState<number>(date.getFullYear());
+    const [currMonth, setCurrMonth] = useState<number>(date.getMonth());
+    const months: string[] = ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7",
+              "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"];
+
+    const [days, setDays] = useState<JSX.Element[]>([])
     
     const dispatch = useDispatch();
     const handleClickDate = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -30,13 +37,7 @@ export const Calendar_Component = () => {
         }
         dispatch(setSelectedDay(dayString));
     }
-    const [date, setDate] = useState(new Date());
-    const [currYear, setCurrYear] = useState<number>(date.getFullYear());
-    const [currMonth, setCurrMonth] = useState<number>(date.getMonth());
-    const months: string[] = ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7",
-              "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"];
-
-    const [days, setDays] = useState<JSX.Element[]>([])
+    
     const renderCalendar = ()=> {
         let firstDayofMonth: number = new Date(currYear, currMonth, 1).getDay();
         let lastDateofMonth: number = new Date(currYear, currMonth + 1, 0).getDate();

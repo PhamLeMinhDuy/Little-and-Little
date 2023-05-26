@@ -15,20 +15,20 @@ export const View_pay_success = () => {
   const ticketRef: CollectionReference<DocumentData> = collection(db, "ticket");
   const [ticketList, setticketList] = useState<any[]>([]);
   const [startIndex, setStartIndex] = useState(0);
-
-    useEffect(() => {
+  interface TicketProps {
+    ticketID: string;
+    type: string;
+    usedDay: string;
+  }
+  useEffect(() => {
         const getListTicket = async () => {
             const data = await getDocs(ticketRef);
             setticketList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         };
         
         getListTicket();
-    }, []);
-    interface TicketProps {
-      ticketID: string;
-      type: string;
-      usedDay: string;
-  }
+  }, []);
+    
   const handleNext = () => {
     if (startIndex + 4 < ticketList.length) {
       setStartIndex(startIndex + 4);
@@ -40,8 +40,6 @@ export const View_pay_success = () => {
       setStartIndex(startIndex - 4);
     }
   };
-  
-  let compare = 
 
   useEffect(() => {
     page_number = (startIndex/4) +1

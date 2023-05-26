@@ -13,12 +13,12 @@ export const BookTickets = () => {
     
     const selectedDay = useSelector((state: RootState) => state.calendar.selectedDay);
     const handleShowCalendar = () => {
-        const element = document.querySelector(".book_ticket-calendar") as HTMLElement
-        if (element && element.classList.contains("book_ticket-calendar--hidden")) {
+    const element = document.querySelector(".book_ticket-calendar") as HTMLElement
+    if (element && element.classList.contains("book_ticket-calendar--hidden")) {
             element.setAttribute("style","display:block;");
             element.classList.remove("book_ticket-calendar--hidden")
             element.classList.add("book_ticket-calendar--show")
-        } else if (element && element.classList.contains("book_ticket-calendar--show")) { 
+    } else if (element && element.classList.contains("book_ticket-calendar--show")) { 
             element.setAttribute("style","display:none;");
             element.classList.add("book_ticket-calendar--hidden")
             element.classList.remove("book_ticket-calendar--show")
